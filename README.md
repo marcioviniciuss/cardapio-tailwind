@@ -1,5 +1,8 @@
-Projeto ainda em trabalho, você pode acompanhar o desenvolvimento pelo link de deploy na plataforma Vercel: https://cardapio-tailwind.vercel.app/
 
-![image](https://github.com/user-attachments/assets/dc092710-0a26-4dc4-a95b-773f748c8c08)
+## Projeto ainda em trabalho
 
-![cardapio](https://github.com/user-attachments/assets/cd9de207-ea76-4b32-817d-52ca267047cd)
+Você pode acompanhar o desenvolvimento pelo link de deploy na plataforma Vercel: https://cardapio-tailwind.vercel.app/
+
+## Imagem
+
+![FotoJet](https://github.com/user-attachments/assets/fe436ffe-73c1-425e-96fd-50eb140daa1d)
