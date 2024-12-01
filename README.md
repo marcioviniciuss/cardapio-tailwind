@@ -5,4 +5,5 @@ Você pode acompanhar o desenvolvimento pelo link de deploy na plataforma Vercel
 
 ## Imagem
 
-![FotoJet](https://github.com/user-attachments/assets/fe436ffe-73c1-425e-96fd-50eb140daa1d)
+
+![Code Burguer](https://github.com/user-attachments/assets/1d261423-5724-4a16-acaa-e7432a39c414)
