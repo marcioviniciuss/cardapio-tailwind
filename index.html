@@ -14,7 +14,7 @@
     />
   </head>
 
-  <body class="bg-black bg-opacity-5">
+  <body class="bg-yellow-100 bg-opacity-5">
     <header class="h-[420px] w-full bg-zinc-900 bg-home bg-cover bg-center">
       <div class="flex h-full w-full flex-col items-center justify-center">
         <img
@@ -42,7 +42,7 @@
       >
         <!-- produtos -->
         <div
-          class="flex gap-2 rounded border border-gray-100 bg-neutral-50 p-2 shadow-md"
+          class="flex gap-2 rounded border border-gray-100 bg-yellow-50 p-2 shadow-md"
         >
           <img
             src="../assets/hamb-1.png"
@@ -69,7 +69,7 @@
         </div>
 
         <div
-          class="flex gap-2 rounded border border-gray-100 bg-neutral-50 p-2 shadow-md"
+          class="flex gap-2 rounded border border-gray-100 bg-yellow-50 p-2 shadow-md"
         >
           <img
             src="../assets/hamb-2.png"
@@ -96,7 +96,7 @@
         </div>
 
         <div
-          class="flex gap-2 rounded border border-gray-100 bg-neutral-50 p-2 shadow-md"
+          class="flex gap-2 rounded border border-gray-100 bg-yellow-50 p-2 shadow-md"
         >
           <img
             src="../assets/hamb-3.png"
@@ -123,7 +123,7 @@
         </div>
 
         <div
-          class="flex gap-2 rounded border border-gray-100 bg-neutral-50 p-2 shadow-md"
+          class="flex gap-2 rounded border border-gray-100 bg-yellow-50 p-2 shadow-md"
         >
           <img
             src="../assets/hamb-4.png"
@@ -149,7 +149,7 @@
         </div>
 
         <div
-          class="flex gap-2 rounded border border-gray-100 bg-neutral-50 p-2 shadow-md"
+          class="flex gap-2 rounded border border-gray-100 bg-yellow-50 p-2 shadow-md"
         >
           <img
             src="../assets/hamb-5.png"
@@ -176,7 +176,7 @@
         </div>
 
         <div
-          class="flex gap-2 rounded border border-gray-100 bg-neutral-50 p-2 shadow-md"
+          class="flex gap-2 rounded border border-gray-100 bg-yellow-50 p-2 shadow-md"
         >
           <img
             src="../assets/hamb-6.png"
@@ -202,7 +202,7 @@
         </div>
 
         <div
-          class="flex gap-2 rounded border border-gray-100 bg-neutral-50 p-2 shadow-md"
+          class="flex gap-2 rounded border border-gray-100 bg-yellow-50 p-2 shadow-md"
         >
           <img
             src="../assets/hamb-7.png"
@@ -228,7 +228,7 @@
         </div>
 
         <div
-          class="flex gap-2 rounded border border-gray-100 bg-neutral-50 p-2 shadow-md"
+          class="flex gap-2 rounded border border-gray-100 bg-yellow-50 p-2 shadow-md"
         >
           <img
             src="../assets/hamb-8.png"
@@ -264,7 +264,7 @@
         class="mx-auto mb-16 grid max-w-7xl grid-cols-1 gap-7 px-2 md:grid-cols-2 md:gap-10 2xl:grid-cols-3"
       >
         <div
-          class="flex gap-2 rounded border border-gray-100 bg-neutral-50 p-2 shadow-md"
+          class="flex gap-2 rounded border border-gray-100 bg-yellow-50 p-2 shadow-md"
         >
           <img
             src="../assets/refri-1.png"
@@ -288,7 +288,7 @@
         </div>
 
         <div
-          class="flex gap-2 rounded border border-gray-100 bg-neutral-50 p-2 shadow-md"
+          class="flex gap-2 rounded border border-gray-100 bg-yellow-50 p-2 shadow-md"
         >
           <img
             src="../assets/refri-2.png"
@@ -312,5 +312,22 @@
         </div>
       </div>
     </div>
+
+    <div
+      class="fixed left-0 top-0 z-[99] flex hidden h-full w-full items-center justify-center bg-black/60"
+    >
+      <div class="min-w-[90%] rounded-md bg-white p-5 md:min-w-[600px]">
+        <h2 class="mb-2 text-center text-2xl font-bold">Meu carrinho</h2>
+      </div>
+    </div>
+
+    <footer
+      class="fixed bottom-0 z-40 flex w-full items-center justify-center bg-red-500 py-2"
+    >
+      <button class="flex items-center gap-2 font-bold text-white">
+        (<span id="cart-count">2</span>) Veja meu carrinho
+        <i class="fa fa-cart-plus text-lg text-white"></i>
+      </button>
+    </footer>
   </body>
 </html>
